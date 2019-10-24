@@ -63,5 +63,5 @@ app.use((err, req, res) => {
 
 // Serve the files on port 3000.
 app.listen(config.ENVIRONMENT.HOST_PORT, () => {
-	console.log(`Example app listening on port ${config.ENVIRONMENT.HOST_PORT}!\n`);
+	console.log(`App listening on port ${config.ENVIRONMENT.HOST_PORT}!\n`);
 });
