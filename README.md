@@ -1,2 +1,2 @@
 # Giffy
-🤩🔥🎉 Best Gifs On The Internet 🤩🔥🎉
+🎉🔥🤩 Best Gifs On The Internet 🤩🔥🎉
