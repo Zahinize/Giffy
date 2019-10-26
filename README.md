@@ -38,3 +38,23 @@ npm run launch
 ```bash
 App Localhost url: http://localhost:8080/
 ```
+
+## React Components Architecture
+```bash
+<ErrorBoundary>
+  <Shell>
+    <Sidebar>
+      <ModeChange>
+      <MainContent>
+        <Header>
+        <Content>
+          <SearchGif>
+          <Overlay>
+            <Searchbar>
+            <Grid>
+        <Footer>
+```
+All react components are self-explainable by their name. They are designed to ensure S.R.P. (Single Responsibility Principle) principle, code reusability, code quality and code testability purposes.
+
+## Webpack Learnings
+To implement this project in the best way i can, i created [Webpack Learnings](https://github.com/Zahinize/webpack-learnings) to learn and understand core features of Webpack with examples. Check it out if you want to 😃.
