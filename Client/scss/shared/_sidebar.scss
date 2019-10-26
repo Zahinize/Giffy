@@ -1,0 +1,15 @@
+.layout-sidebar {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+
+	.layout-sidebar-navigation {
+		background: $colorWhite;
+		border-right: $primaryBorderColor;
+		flex: initial;
+		width: 64px;
+		transition: all 0.3s ease;
+	}
+}

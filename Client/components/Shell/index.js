@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Sidebar from '../Sidebar/index';
 
-const Shell = ({ message, ...rest }) => (
-	<div className="u-height-full aligner aligner--vCenter aligner--hCenter" {...rest}>
-		<h2>{message}</h2>
-	</div>
-);
+class Shell extends React.Component {
+	state = {};
+
+	render() {
+		return <Sidebar leftChildren={<div>Left child</div>} rightChildren={<h2>Main content comes here</h2>} />;
+	}
+}
 
 Shell.propTypes = {
 	message: PropTypes.string
 };
 
-Shell.defaultProps = {
-	message: 'Shell comes here!'
-};
+Shell.defaultProps = {};
 
 export default Shell;
