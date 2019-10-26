@@ -25,7 +25,7 @@ npm i
 ```bash
 npm start
 ```
-
+**Alternate Step**
 - Run development server
   - Update `HOST_ENV` value in `./configs/config.js` file to `commonConsts.ENVIRONMENT.DEVELOPMENT` like below.
     - `HOST_ENV: commonConsts.ENVIRONMENT.DEVELOPMENT`
