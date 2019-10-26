@@ -12,7 +12,7 @@ class Sidebar extends React.Component {
 			leftChildrenClassName,
 			rightChildrenClassName
 		} = this.props;
-		const computedRootClassName = `layout-sidebar aligner u-height-full ${rootClassName}`;
+		const computedRootClassName = `layout-sidebar aligner ${rootClassName}`;
 		const computedLeftChildrenClassName = `layout-sidebar-navigation aligner-item aligner aligner--vCenter aligner--hCenter ${leftChildrenClassName}`;
 		const computedRightChildrenClassName = `layout-sidebar-content aligner-item ${rightChildrenClassName}`;
 

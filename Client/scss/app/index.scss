@@ -189,7 +189,41 @@ input[type='submit']:hover {
 }
 /***** Overlay End *****/
 
+/***** DARK MODE *****/
+.mode-dark {
+	background: $darkModePrimaryBackgroundColor !important;
+	color: $darkModePrimaryTextColor !important;
+
+	header {
+		color: $darkModePrimaryTextColor !important;
+	}
+
+	input[type='submit'],
+	.item .image,
+	.controls button,
+	#load-more,
+	.overlay .overlay-item {
+		background: $darkModePrimaryTextColor;
+	}
+
+	.sub-text {
+		color: $darkModePrimaryTextColor !important;
+	}
+
+	.layout-sidebar-navigation {
+		background: $darkModePrimaryTextColor !important;
+		border-right-color: $darkModePrimaryBorderColor !important;
+	}
+
+	.svg-inline--fa {
+		color: $colorWhite;
+	}
+}
+
 @media only screen and (max-width: 768px) {
+	.layout-sidebar-navigation {
+		display: none !important;
+	}
 	.content {
 		width: 90%;
 	}

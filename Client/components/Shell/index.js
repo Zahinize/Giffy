@@ -1,13 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sidebar from '../Sidebar/index';
 import MainContent from '../MainContent/index';
+import ModeChange from '../ModeChange/index';
 
 class Shell extends React.Component {
 	state = {};
 
-	renderNavbar = () => <FontAwesomeIcon icon="moon" size="2x" className="" />;
+	renderNavbar = () => <ModeChange />;
 
 	renderMainContent = () => {
 		return <MainContent />;
