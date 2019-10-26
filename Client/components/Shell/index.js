@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sidebar from '../Sidebar/index';
+import MainContent from '../MainContent/index';
 
 class Shell extends React.Component {
 	state = {};
@@ -9,7 +10,7 @@ class Shell extends React.Component {
 	renderNavbar = () => <FontAwesomeIcon icon="moon" size="2x" className="" />;
 
 	renderMainContent = () => {
-		return <h2>Main content comes here</h2>;
+		return <MainContent />;
 	};
 
 	render() {
