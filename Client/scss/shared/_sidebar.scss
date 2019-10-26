@@ -7,7 +7,7 @@
 
 	.layout-sidebar-navigation {
 		background: $colorWhite;
-		border-right: $primaryBorderColor;
+		border-right: 1px solid $primaryBorderColor;
 		flex: initial;
 		width: 64px;
 		transition: all 0.3s ease;

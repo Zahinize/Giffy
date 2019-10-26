@@ -1,18 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sidebar from '../Sidebar/index';
 
 class Shell extends React.Component {
 	state = {};
 
+	renderNavbar = () => <FontAwesomeIcon icon="moon" size="2x" className="" />;
+
+	renderMainContent = () => {
+		return <h2>Main content comes here</h2>;
+	};
+
 	render() {
-		return <Sidebar leftChildren={<div>Left child</div>} rightChildren={<h2>Main content comes here</h2>} />;
+		const navBar = this.renderNavbar();
+		const mainContent = this.renderMainContent();
+
+		return <Sidebar leftChildren={navBar} rightChildren={mainContent} />;
 	}
 }
 
-Shell.propTypes = {
-	message: PropTypes.string
-};
+Shell.propTypes = {};
 
 Shell.defaultProps = {};
 
