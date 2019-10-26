@@ -22,7 +22,7 @@ class Content extends Component {
 		const { overlay } = this.state;
 
 		return (
-			<section className="content-wrapper">
+			<section className="u-width-full u-padding-v3">
 				<section className="content">
 					<SearchGif toggleOverlay={this.toggleOverlay} />
 				</section>

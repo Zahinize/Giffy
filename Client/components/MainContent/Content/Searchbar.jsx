@@ -24,7 +24,11 @@ class Searchbar extends Component {
 		const { query } = this.state;
 
 		return (
-			<form onSubmit={this.searchWrapper} role="form">
+			<form
+				className="u-width-full aligner aligner--hSpaceBetween u-margin-v2"
+				onSubmit={this.searchWrapper}
+				role="form"
+			>
 				<input
 					type="text"
 					title="Enter Your Search Query"

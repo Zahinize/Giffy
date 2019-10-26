@@ -22,7 +22,7 @@ const Grid = ({ items, controls, fetchMore, hasMore, toggleOverlay }) => {
 				})}
 			</section>
 			{fetchMore && hasMore ? (
-				<section className="row">
+				<section className="aligner aligner--vCenter aligner--hCenter aligner--row u-width-full u-margin-v1">
 					<button onClick={fetchMore} id="load-more" aria-label="Load More">
 						Load More
 					</button>
