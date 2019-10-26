@@ -14,9 +14,11 @@
 }
 html,
 body {
+	background: $primaryBackgroundColor;
 	color: $primaryTextColor;
 	font-family: $primaryFontFamily;
 	font-size: $designDimensionSM; // 1rem = 16px
 	height: $fullPercentage;
 	width: $fullPercentage;
+	transition: all 0.3s ease;
 }
